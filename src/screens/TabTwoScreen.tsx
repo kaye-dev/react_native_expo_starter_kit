@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { View } from '../components/Themed';
+import { RootStackScreenProps } from '../../types';
 
-const TabThreeScreen: React.FC = () => {
+export const TabTwoScreen = ({ navigation }: RootStackScreenProps<'TabTwo'>): JSX.Element => {
+  console.log(navigation);
   return <View style={styles.container}></View>;
 };
-
-export default TabThreeScreen;
 
 const styles = StyleSheet.create({
   container: {

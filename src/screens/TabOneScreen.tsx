@@ -1,10 +1,11 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { RootStackScreenProps } from '../../types';
 
-const TabOneScreen: React.FC = () => {
-  return <ScrollView style={styles.container}></ScrollView>;
+export const TabOneScreen = ({ navigation }: RootStackScreenProps<'TabOne'>): JSX.Element => {
+  console.log(navigation);
+  return <View style={styles.container}></View>;
 };
-export default TabOneScreen;
 
 const styles = StyleSheet.create({
   container: {
