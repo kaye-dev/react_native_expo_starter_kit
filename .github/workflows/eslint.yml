@@ -4,7 +4,7 @@ name: ESLint
 on: push
 
 jobs:
-  test:
+  eslint:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
