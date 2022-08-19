@@ -9,8 +9,10 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll",
+    "prepare": "husky install",
     "lint": "eslint 'src/**/*.ts'",
     "lint:fix": "eslint --fix 'src/**/*.ts'",
+    "eslint": "npm run format && npm run lint",
     "typecheck": "tsc"
   },
   "engines": {
