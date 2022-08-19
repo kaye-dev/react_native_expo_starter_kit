@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "react_native_expo_app",
-    "slug": "react_native_expo_app",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "owner": "kaye_dev", // Expoのアカウント名
+    "name": "StarterKit", // アプリの名前
+    "orientation": "portrait", // アプリの縦向き・横向きの設定
+    "slug": "starter-kit", // publishした時のURL名
+    "scheme": "starter-kit", // 例: demoを設定したとき => demo://URL
+    "version": "0.0.1",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
