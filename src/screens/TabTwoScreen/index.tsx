@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View } from 'react-native';
-import { RootStackScreenProps } from '../../../types';
+import { RootStackScreenProps } from '@types';
 import { styles } from './styles';
 
 export const TabTwoScreen = ({ navigation }: RootStackScreenProps<'TabTwo'>): JSX.Element => {
