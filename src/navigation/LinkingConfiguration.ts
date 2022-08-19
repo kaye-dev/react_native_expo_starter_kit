@@ -1,7 +1,9 @@
+import { LinkingOptions } from '@react-navigation/native';
 import * as Linking from 'expo-linking';
+import { RootStackParamList } from '../../types';
 
-export default {
-  prefixes: [Linking.makeUrl('/')],
+const linking: LinkingOptions<RootStackParamList> = {
+  prefixes: [Linking.createURL('/')],
   config: {
     screens: {
       Root: {
@@ -16,14 +18,12 @@ export default {
               TabTwoScreen: 'two',
             },
           },
-          TabThree: {
-            screens: {
-              TabThreeScreen: 'three',
-            },
-          },
         },
       },
+      Modal: 'modal',
       NotFound: '*',
     },
   },
 };
+
+export default linking;

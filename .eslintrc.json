@@ -23,6 +23,7 @@
     "eqeqeq": "warn",
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
+    "import/namespace": "off",
     "import/order": [
       "error",
       {
