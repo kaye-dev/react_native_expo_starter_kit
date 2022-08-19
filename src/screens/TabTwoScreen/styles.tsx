@@ -5,7 +5,12 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#000',
   },
-  firstCard: {
-    marginBottom: 10,
+  link: {
+    marginTop: 15,
+    paddingVertical: 15,
+  },
+  linkText: {
+    fontSize: 14,
+    color: '#2e78b7',
   },
 });
