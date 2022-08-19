@@ -4,6 +4,7 @@ services:
     image: react_native_expo_starter_kit
     container_name: react_native_expo_starter_kit
     build: .
+    command: npm run start
     volumes:
       - .:/react_native_expo_starter_kit
     ports:
