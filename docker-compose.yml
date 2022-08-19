@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    image: react_native_expo_starter_kit
+    container_name: react_native_expo_starter_kit
+    build: .
+    volumes:
+      - .:/react_native_expo_starter_kit
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
+    # env_file: .env
+    environment:
+      TZ: $Asia/Tokyo
+    networks:
+      - default
+networks:
+  default:
+    name: react_native_expo_starter_kit_network

@@ -1,1 +1,1 @@
-# react_native_expo_app
+# react_native_expo_starter_kit

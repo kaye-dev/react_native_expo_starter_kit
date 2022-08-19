@@ -11,6 +11,9 @@
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "typecheck": "tsc"
   },
+  "engines": {
+    "node": "18"
+  },
   "jest": {
     "preset": "jest-expo"
   },
