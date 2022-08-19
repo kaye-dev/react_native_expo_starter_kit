@@ -10,8 +10,8 @@
     "eject": "expo eject",
     "test": "jest --watchAll",
     "prepare": "husky install",
-    "lint": "eslint 'src/**/*.ts'",
-    "lint:fix": "eslint --fix 'src/**/*.ts'",
+    "format": "eslint --fix 'src/**/*.ts'",
+    "lint": "eslint 'src/**/*.ts' --cache",
     "eslint": "npm run format && npm run lint",
     "typecheck": "tsc"
   },
